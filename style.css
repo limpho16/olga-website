@@ -1,0 +1,250 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: cursive;
+	background-image: url(home.jpg);
+	opacity: 1px;
+}
+a{
+	color: white;
+	font-size: 25px;
+}
+nav{
+	background: #0082e6;
+	height: 80px;
+	width: 100%;
+
+}
+label.logo{
+	color: white;
+	font-size: 65px;
+	line-height: 80px;
+	
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin:  5px;
+
+}
+div{
+	
+	background-size:260px;
+	font-size: 12px;
+	color: gold;
+}
+.title h1{
+	text-align: center;
+	padding: 20px;
+	font-size: 62px;
+}
+.title h1::after{
+	content: "";
+	background-color: #000;
+	display: block;
+	margin: auto;
+
+}
+.services{
+	width: 85%;
+	display: flex;
+	justify-content: space_between;
+	align-items: center;
+	margin: 75px auto;
+	text-align: center;
+}
+.card{
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	margin: 0px 20px;
+	
+	border-radius: 10px;
+	cursor: pointer;
+	border-left: double;
+	border-right: double;
+	border-bottom: double;
+	border-top: double;
+
+}
+.card h2{
+	font-size: 28px;
+	color: white;
+	margin-bottom: 20px;
+
+}
+.card p{
+	font-size: 20px;
+	margin-bottom: 30px;
+	line-height: 2.0;
+	color: white;
+}
+.card:hover{
+	background-color: black;
+}
+
+.company{
+	width: 85%;
+	display: flex;
+	justify-content: space_between;
+	align-items: center;
+	margin: 55px auto;
+	text-align: center;
+ 
+	
+
+
+}
+.container p{
+	font-size: 15px;
+	margin-bottom: 30px;
+	line-height: 2.0;
+	color: greenyellow;
+
+
+}
+.container:hover{
+	background-color: black;
+}
+
+}
+span.item{
+	font-size: 90px;
+}
+
+/*CONTACTS PAGE*/
+
+.contact-form{
+	width: 30%;
+	height: auto;
+	
+	margin-top: -13em;
+}
+.contact-form h1{
+	margin-bottom: 10px;
+}
+.contact-form-txt{
+	width:45%;
+	height: 40px;
+	color: red;
+	border: 1px solid #bcbcbc;
+	border-radius: 50px;
+	outline: none;
+	margin-bottom: 20px;
+	padding: 15px;
+	background-color: greenyellow;
+	align-items: center;
+}
+.contact-form-txt::placeholder{
+	color: darkgreen;
+	
+}
+.contact-form-textarea{
+	width: 100%;
+	height: 100px;
+	color: red;
+	border: 1px solid #bcbcbc;
+	border-radius: 40px;
+	outline: none;
+	margin-bottom: 20px;
+	padding: 15px;
+	font-family: cursive;
+	background-color: greenyellow;
+
+}
+.contact-form-textarea::placeholder{
+	color: darkgreen;
+}
+.contact-form-btn{
+	width: 30%;
+	border: none;
+	outline: none;
+	border-radius: 50px;
+	background-color: darkgreen;
+	padding: 5px ;
+	margin-left: 35%;
+}
+.contact-map{
+	margin-left: 50%;
+	margin-top: -24%;
+}
+
+
+.blogpage{
+	width:35%;
+	height: 40px;
+	color: red;
+	border: 1px solid #bcbcbc;
+	border-radius: 30px;
+	outline: none;
+	margin-bottom: 20px;
+	padding: 15px;
+	background-color: greenyellow;
+	align-items: center;
+}
+.main-part{
+	position: absolute;
+	top: 50%;
+	left:35%;
+	transform: translate(-50%,50%);
+	width: 600px;
+	height: 150px;
+}
+.main-part li{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	transform: rotate(45deg);
+	opacity: 100%;
+	overflow:hidden;
+	margin: -100px;
+
+
+}
+.main-part li:hover{
+	opacity: 100%;
+}
+.main-part li.item1{
+	top: 0;
+	left: 26.5%;
+}
+.main-part li.item2{
+	bottom: 0;
+	left: 52.5%;
+}
+.main-part li.item3{
+	top: 0;
+	left: 78.5%;
+}
+.main-part li.item4{
+	bottom:0;
+	left: 104.5%;
+}
+.main-part li.item5{
+	top: 0;
+	left: 130.5%;
+}
+.main-part li.bg{
+	width: 100%;
+	height: 100%;
+	transform: scale(1.1);
+
+}
+
+
+
+
+
+
